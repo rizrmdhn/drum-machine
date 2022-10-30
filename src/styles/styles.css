@@ -1,0 +1,49 @@
+:root {
+    background-color: gray;
+}
+body {
+    background-color: gray;
+}
+#drum-machine {
+    background-color: rgb(107, 106, 106);
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    width: 500px;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#pad-bank {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+#control-container {
+    text-align: center;
+    width: 25%;
+}
+#display {
+    background-color: gray;
+    color: white;
+    width: 150px;
+    font-size: 30px;
+    margin-top: 77%;
+}
+.drum-pad {
+    text-align: center;
+    width: 60px;
+    font-size: 25px;
+    margin: 5px 5px;
+}
+.btn {
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+}
+.btn:hover {
+    background-color: orange;
+}
+.drum-pad-active {
+    background-color: orange;
+}
